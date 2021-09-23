@@ -1,0 +1,68 @@
+.Bcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+    background: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    height: 230px;
+    margin: 10px 20px 20px 25px;
+    position: relative;
+    width: 450px;
+    padding: 40px 10px 10px 10px;
+}
+.card:hover{
+        transform: translateY(-1rem);
+        border:5px solid #046C95;
+}
+li,ul{
+    background-color: white;
+    list-style-type:none;
+}
+h3{
+    background-color:white;
+}
+span{
+    font-weight: bold;
+    font-size: 20px;
+    background-color:white;
+    color:#0196C1;
+}
+.name{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    list-style-type: none;
+    color:#046C95;
+}
+.names{
+    margin-top: 18px;
+    line-height: 30px;
+}
+/* .adress{
+    align-items: flex-end;
+    margin-top: 20px;
+    color: #697A98;
+    background-color:white
+} */
+/* .adr{
+    margin-left: 20px;
+    margin-top: 5px;
+    background-color:white
+} */
+.iconU{
+    margin-left: 25px;
+    margin-right: 15px;
+    background-color:white
+}
+#two {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+        }
